@@ -203,4 +203,9 @@ body{
     margin: 0;
     background-color: #1d1e22;
   }
-  
+  section.freelancer{
+      text-align: center;
+      background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/fotis-fotopoulos-DuHKoV44prg-unsplash.jpg);
+      color: var(--pure);
+    clip-path: polygon(0 0,100% 0,100% 100%,70% 87%,0 100%) ;
+  }
