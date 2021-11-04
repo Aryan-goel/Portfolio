@@ -263,4 +263,47 @@ body{
       height: 100%;
       width: 100%;
   }
- 
+ section.blog{
+     background: var(--dark);
+     clip-path: polygon(0 0,100% 0,100% 100%,70% 87%,0 100%) ;
+     padding-bottom: 12rem;
+ }
+ section.blog .section-heading{
+     color: var(--pure);
+ }
+ section.blog .card-wrapper{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     grid-gap: 3rem;
+
+ }
+ section.blog .card-wrapper .card{
+     background: var(--pure);
+ }
+ section.blog .card-wrapper .card .card-content{
+     padding: 2rem;
+ }
+ section.blog .card-wrapper .card .card-content h1{
+    font-size: 1.2rem;
+    font-weight: 600;
+ }
+ section.blog .card-wrapper .card .card-content a{
+     color: var(--secondary);
+     text-decoration: none;
+ }
+ section.blog .card-wrapper .card .card-content a:hover{
+     color: var(--primary);
+     transition: all .3s ease;
+ }
+ section.blog .card-wrapper .card .card-content span{
+     font-size:1.6rem ;
+     color: var(--ternary);
+ }
+ section.blog .card-wrapper .card .card-content p{
+     font-family: "Lato", sans-serif;
+     color: var(--dark);
+     margin-bottom: 1.2rem;
+ }
+ section.blog .card-wrapper .card .card-content a.read-more{
+     font-size: 0.8rem;
+ }
